@@ -7,7 +7,7 @@ const userInput = readline.createInterface({input, output});
 
 
 let getal1 = parseFloat(await userInput.question('Geef een getal in:'));// Voeg hier je eigen code in
-let getal2 = parseFloat(await userInput.question('Geef een ander getal in:'));
+let getal2 = parseFloat(await userInput.question('Geef een getal in:'));
 
 let som = getal1 + getal2 ;
 
